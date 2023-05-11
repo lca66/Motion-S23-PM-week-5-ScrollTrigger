@@ -1,17 +1,15 @@
-#section-2{
+#section-4{
     // background-color: var(--charcoal);
     height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/photog.jpg");
+    background-image: url("../img/type.jpg");
     background-size:cover;
 
     #box{
         height: 100px;
         width: 300px;
         background-color: var(--white);
-
-    
     }
 }

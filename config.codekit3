@@ -17,6 +17,14 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.gitignore",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -29,15 +37,41 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/hero.jpg" : {
+    "\/deploy\/img\/branding.jpg" : {
       "ft" : 16384,
-      "iS" : 129853,
+      "iS" : 288120,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero.jpg",
+      "oAP" : "\/deploy\/img\/branding.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/photog.jpg" : {
+      "ft" : 16384,
+      "iS" : 129073,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/photog.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/type.jpg" : {
+      "ft" : 16384,
+      "iS" : 135742,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/type.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -83,6 +117,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/section-3.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-4.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-4.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.html" : {
@@ -347,6 +389,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_section-4.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_section-4.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -383,6 +440,14 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0
     },
     "\/README.md" : {
       "cB" : 0,
