@@ -367,9 +367,18 @@ textarea {
 #section-1 {
   background-color: var(--white);
   height: 40vh;
-  display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+#section-1 #header {
+  padding-top: 90px;
+}
+#section-1 h1 {
+  font-size: 50px;
+}
+#section-1 p {
+  font-size: 20px;
 }
 
 #section-2 {
@@ -378,12 +387,25 @@ textarea {
   justify-content: center;
   align-items: center;
   background-image: url("../img/photog.jpg");
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   background-size: cover;
+  text-align: center;
 }
 #section-2 #box {
-  height: 100px;
-  width: 300px;
+  height: 90px;
+  width: 250px;
   background-color: var(--white);
+}
+#section-2 #box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 21px;
 }
 
 #section-3 {
@@ -392,12 +414,25 @@ textarea {
   justify-content: center;
   align-items: center;
   background-image: url("../img/branding.jpg");
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   background-size: cover;
+  text-align: center;
 }
-#section-3 #box {
-  height: 100px;
-  width: 300px;
+#section-3 #box2 {
+  height: 90px;
+  width: 250px;
   background-color: var(--white);
+}
+#section-3 #box2 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 21px;
 }
 
 #section-4 {
@@ -406,10 +441,23 @@ textarea {
   justify-content: center;
   align-items: center;
   background-image: url("../img/type.jpg");
+  margin-bottom: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
   background-size: cover;
+  text-align: center;
 }
-#section-4 #box {
-  height: 100px;
-  width: 300px;
+#section-4 #box3 {
+  height: 90px;
+  width: 250px;
   background-color: var(--white);
+}
+#section-4 #box3 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 21px;
 }

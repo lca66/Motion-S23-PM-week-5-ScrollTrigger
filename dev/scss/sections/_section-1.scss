@@ -1,11 +1,21 @@
 #section-1{
     background-color: var(--white);
     height: 40vh;
-    display: flex;
+    // display: block;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    // padding-top: 40px;
 
-    // #h1 {
+    #header {
+        padding-top: 90px;
 
-    // }
+
+    }
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 20px;
+    }
 }
