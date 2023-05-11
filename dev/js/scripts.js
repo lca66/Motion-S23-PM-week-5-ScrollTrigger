@@ -12,6 +12,44 @@ gsap.registerPlugin(ScrollTrigger);
 
 // gsap.to(".section-1", {duration:1, y:10});
 
+gsap.from("#section-1 h1",{duration:1, scrollTrigger:{
+    trigger:"#section-1",
+    toggleActions:"play pause resume reverse",
+    start:"top 0%",
+    end:"bottom 25%",
+    markers:true
+    // (property) startColor: white,
+    // (property) endColor: string
+    // markers: {startColor: "--black", endColor: "--black"}
+    },
+    scale:.75, 
+    font-opacity: 70%,
+    y:"-=800%"});
+
+// gsap.from("#section-1 h1",{duration:3, scrollTrigger:{
+//     trigger:"#section-1",
+//     toggleActions:"play pause resume reverse",
+//     start:"top 80%",
+//     end:"bottom 20%",
+//     markers:true
+//     },
+//     scale:.5,});
+
+
+
+ gsap.from("#section-1 p",{duration:1, scrollTrigger:{
+    trigger:"#section-1",
+    toggleActions:"play pause resume reverse",
+    start:"top 0%",
+    end:"bottom 25%",
+    markers:true
+    },
+    scale:.75,   
+    y:"-=700%"});   
+
+// tl.from(".section-1", {duration:1, x:20, ease:"power4.out"})
+// .to(".section-1", {duration:1, y:20, ease:"power4.out"})
+
 gsap.from("#box",{duration:2, scrollTrigger:{
     trigger:"#box",
     toggleActions:"play pause resume reverse",
@@ -32,11 +70,11 @@ gsap.from("#section-2",{duration:1, scrollTrigger:{
     scale:.95, 
     x:"=100%"});
 
-gsap.from("#box2",{duration:1.5, scrollTrigger:{
+gsap.from("#box2",{duration:2, scrollTrigger:{
     trigger:"#box2",
     toggleActions:"play pause resume reverse",
-    start:"bottom 80%",
-    end:"top 20%",
+    start:"bottom 70%",
+    end:"top 30%",
     markers:true
     },
     scale:.7, 
